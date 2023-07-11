@@ -1,0 +1,123 @@
+/*----------general styles-------*/
+:root {
+	--back-color: #2E2F42;
+}
+body {
+	font-family: 'Roboto', sans-serif;
+	color: #2E2F42;
+}
+footer {
+	background-color: var(--back-color);
+}
+.list {
+	list-style-type: none;
+}
+.link {
+	text-decoration: none;
+}
+.button {
+	cursor: pointer;
+}
+.button:hover, .button:focus {
+	background-color: #404BBF;
+}
+.logo-violet {
+	color: #4D5AE5;
+}
+/*--------header styles----------*/
+.header-menu-logo {
+	font-family: 'Raleway', sans-serif;
+	font-size: 18px;
+	font-weight: 800;
+	line-height: 1.16;
+	letter-spacing: 0.036em;
+}
+
+.header-menu-link {
+	font-size: 16px;
+	font-weight: 500;
+	line-height: 1.5;
+	letter-spacing: 0.02em;
+}
+.header-menu-link:hover, .header-menu-link:focus {
+	color: #404BBF;
+}
+.header-contacts-link {
+	font-size: 16px;
+	color: #434455;
+	line-height: 1.5;
+	letter-spacing: 0.02em;
+	font-style: normal;
+}
+.header-contacts-link:hover, .header-contacts-link:focus {
+	color: #404BBF;
+}
+/*-------------main styles--------*/
+.hero {
+	background-color: var(--back-color);
+}
+.hero-title {
+	text-align: center;
+	color: #fff;
+	font-size: 56px;
+	line-height: 1.07;
+	letter-spacing: 0.019em;
+}
+.hero-btn {
+	font-size: 16px;
+	background-color: #4D5AE5;
+	color: #fff;
+}
+.about-list-title {
+		font-size: 20px;
+		font-weight: 500;
+		line-height: 1.2;
+		letter-spacing: 0.02em;
+}
+
+.text {
+		font-size: 16px;
+		color: #434455;
+		line-height: 1.5;
+		letter-spacing: 0.02em;
+}
+.work-title {
+		font-size: 36px;
+		line-height: 1.11;
+		letter-spacing: 0.02em;
+}
+.staff-title {
+		font-size: 36px;
+		line-height: 1.11;
+		letter-spacing: 0.02em;
+}
+.staff-list-title {
+		font-size: 20px;
+		font-weight: 500;
+		line-height: 1.2;
+		letter-spacing: 0.02em;
+}
+/* ----------------footer-styles----------*/
+.footer-logo {
+color: #F4F4FD;
+	font-family: 'Raleway', sans-serif;
+	font-size: 18px;
+	font-weight: 800;
+	line-height: 1.16;
+	letter-spacing: 0.036em;
+}
+.footer-text {
+	color: #F4F4FD;
+}
+/*-----------studio styles-------*/
+.filter-btn {
+		font-size: 16px;
+		background-color: #4D5AE5;
+		color: #fff;
+}
+.choice-list-title {
+		font-size: 20px;
+		font-weight: 500;
+		line-height: 1.2;
+		letter-spacing: 0.02em;
+}
