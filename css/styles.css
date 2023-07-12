@@ -4,6 +4,7 @@
 	--logo-color: #4D5AE5;
 	--dark-color: #2E2F42;
 	--white-color: #F4F4FD;
+	--text-color: #434455;
 }
 body {
 	font-family: 'Roboto', sans-serif;
@@ -96,6 +97,7 @@ footer {
 		font-size: 16px;
 		line-height: 1.5;
 		letter-spacing: 0.02em;
+		color: var(--text-color);
 }
 .work-title {
 		font-size: 36px;
@@ -145,13 +147,18 @@ color: var(--logo-color);
 }
 /*-----------studio styles-------*/
 .filter-btn {
+		font-family: 'Roboto', sans-serif;
+		font-weight: 500;
 		font-size: 16px;
-		background-color: #4D5AE5;
-		color: #fff;
+		line-height: 1.5;
+		letter-spacing: 0.04em;
+		background-color: var(--white-color);
+		color: var(--logo-color);
 }
 .choice-list-title {
 		font-size: 20px;
 		font-weight: 500;
 		line-height: 1.2;
 		letter-spacing: 0.02em;
+		color: var(--dark-color);
 }
