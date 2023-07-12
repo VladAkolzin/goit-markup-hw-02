@@ -162,3 +162,6 @@ color: var(--logo-color);
 		letter-spacing: 0.02em;
 		color: var(--dark-color);
 }
+.filter-btn:hover, .filter-btn:focus {
+	color: #FFFFFF;
+}
