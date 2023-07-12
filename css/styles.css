@@ -1,10 +1,13 @@
 /*----------general styles-------*/
 :root {
-	--back-color: #2E2F42;
+	--back-color: #ffffff;
+	--logo-color: #4D5AE5;
+	--dark-color: #2E2F42;
 }
 body {
 	font-family: 'Roboto', sans-serif;
-	color: #2E2F42;
+	color: #434455;
+	background-color: var(--back-color);
 }
 footer {
 	background-color: var(--back-color);
@@ -21,16 +24,18 @@ footer {
 .button:hover, .button:focus {
 	background-color: #404BBF;
 }
-.logo-violet {
-	color: #4D5AE5;
+.logo-dark {
+	color: var(--dark-color);
 }
 /*--------header styles----------*/
 .header-menu-logo {
 	font-family: 'Raleway', sans-serif;
 	font-size: 18px;
 	font-weight: 800;
-	line-height: 1.16;
-	letter-spacing: 0.036em;
+	line-height: 1.17;
+	letter-spacing: 0.03em;
+	text-transform: uppercase;
+	color: var(--logo-color);
 }
 
 .header-menu-link {
@@ -38,23 +43,26 @@ footer {
 	font-weight: 500;
 	line-height: 1.5;
 	letter-spacing: 0.02em;
+	color: var(--dark-color);
 }
 .header-menu-link:hover, .header-menu-link:focus {
 	color: #404BBF;
+}
+.header-contacts {
+	font-style: normal;
 }
 .header-contacts-link {
 	font-size: 16px;
 	color: #434455;
 	line-height: 1.5;
 	letter-spacing: 0.02em;
-	font-style: normal;
 }
 .header-contacts-link:hover, .header-contacts-link:focus {
 	color: #404BBF;
 }
 /*-------------main styles--------*/
 .hero {
-	background-color: var(--back-color);
+	background-color: var(--dark-color);
 }
 .hero-title {
 	text-align: center;
@@ -64,7 +72,11 @@ footer {
 	letter-spacing: 0.019em;
 }
 .hero-btn {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 500;
 	font-size: 16px;
+	line-height: 1.5;
+	letter-spacing: 0.04em;
 	background-color: #4D5AE5;
 	color: #fff;
 }
@@ -77,7 +89,6 @@ footer {
 
 .text {
 		font-size: 16px;
-		color: #434455;
 		line-height: 1.5;
 		letter-spacing: 0.02em;
 }
@@ -85,11 +96,21 @@ footer {
 		font-size: 36px;
 		line-height: 1.11;
 		letter-spacing: 0.02em;
+		text-align: center;
+		text-transform: capitalize;
+}
+.staff {
+	background-color: #F4F4FD;
 }
 .staff-title {
 		font-size: 36px;
 		line-height: 1.11;
 		letter-spacing: 0.02em;
+		text-align: center;
+		text-transform: capitalize;
+}
+.staff-list-item {
+	background-color: #FFFFFF;
 }
 .staff-list-title {
 		font-size: 20px;
