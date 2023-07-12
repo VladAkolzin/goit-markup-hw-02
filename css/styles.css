@@ -3,6 +3,7 @@
 	--back-color: #ffffff;
 	--logo-color: #4D5AE5;
 	--dark-color: #2E2F42;
+	--white-color: #F4F4FD;
 }
 body {
 	font-family: 'Roboto', sans-serif;
@@ -26,6 +27,9 @@ footer {
 }
 .logo-dark {
 	color: var(--dark-color);
+}
+.white-color {
+	color: var(--white-color);
 }
 /*--------header styles----------*/
 .header-menu-logo {
@@ -69,7 +73,7 @@ footer {
 	color: #fff;
 	font-size: 56px;
 	line-height: 1.07;
-	letter-spacing: 0.019em;
+	letter-spacing: 0.02em;
 }
 .hero-btn {
 	font-family: 'Roboto', sans-serif;
@@ -85,6 +89,7 @@ footer {
 		font-weight: 500;
 		line-height: 1.2;
 		letter-spacing: 0.02em;
+		color: var(--dark-color);
 }
 
 .text {
@@ -98,6 +103,7 @@ footer {
 		letter-spacing: 0.02em;
 		text-align: center;
 		text-transform: capitalize;
+		color: var(--dark-color);
 }
 .staff {
 	background-color: #F4F4FD;
@@ -108,6 +114,7 @@ footer {
 		letter-spacing: 0.02em;
 		text-align: center;
 		text-transform: capitalize;
+		color: var(--dark-color);
 }
 .staff-list-item {
 	background-color: #FFFFFF;
@@ -117,15 +124,21 @@ footer {
 		font-weight: 500;
 		line-height: 1.2;
 		letter-spacing: 0.02em;
+		color: var(--dark-color);
 }
 /* ----------------footer-styles----------*/
+.footer-info-text {
+	background-color: var(--dark-color);
+}
 .footer-logo {
-color: #F4F4FD;
+color: var(--logo-color);
 	font-family: 'Raleway', sans-serif;
 	font-size: 18px;
 	font-weight: 800;
-	line-height: 1.16;
-	letter-spacing: 0.036em;
+	line-height: 1.17;
+	letter-spacing: 0.03em;
+	text-transform: uppercase;
+
 }
 .footer-text {
 	color: #F4F4FD;
